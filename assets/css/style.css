@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite!important;
+}
+
+nav {
+    height: 110px;
+    background-color: black;
+    border: solid rgb(255, 0, 102) 3px;
+}
+
+nav .display-logo {
+    width: 100px;
+    transition: all 0.4s ease-in-out;
+}
+
+nav .display-logo:hover {
+    opacity: 95%;
+    transform: scale(1.1);
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li {
+    margin: 0px 5px;
+    color: white;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: white!important;
+}
+
+.display-name {
+    width: 35%;
+    text-transform: uppercase;
+    transition: all 2s ease-out;
+    text-align: center;
+}
+
+.display-name:hover {
+    color: red !important;
+    transition: all 2s ease-out;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-weight: bolder !important;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav .container-fluid {
+    margin: 0 2%;
+}
+
+nav .container-fluid .display-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+nav ul li .nav-link {
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li .nav-link:hover {
+    background-color: red;
+    ;
+}
+
+.carousel-inner {
+    width: 75%!important;
+}
+
+@media (max-width:1000px) {
+    .carousel-inner {
+        width: 100%!important;
+    }
+}
+
+section .intro-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section .intro-section h2,
+section .intro-section h3 {
+    text-align: center;
+}
+
+section .intro-main {
+    width: 70%;
+    text-align: justify;
+}
+
+.active {
+    background-color: red !important;
+}
